@@ -10,7 +10,7 @@ document.getElementById('registrationForm').addEventListener('submit', function(
 
     if (isValid) {
         alert('Registration successful!');
-        this.submit(); // Or handle the form data with AJAX/Fetch
+        this.submit(); 
     }
 });
 
